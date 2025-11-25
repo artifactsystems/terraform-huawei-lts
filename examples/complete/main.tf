@@ -3,14 +3,14 @@ provider "huaweicloud" {
 }
 
 locals {
-  name   = "complete-lts"
+  name   = "ex-${basename(path.cwd)}"
   region = "tr-west-1"
 
   tags = {
     Name        = local.name
     Example     = local.name
-    Environment = "production"
-    Team        = "platform"
+    GithubRepo = "terraform-huawei-lts"
+    GithubOrg  = "artifactsystems"
   }
 }
 

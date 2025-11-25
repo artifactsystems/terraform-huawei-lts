@@ -3,12 +3,14 @@ provider "huaweicloud" {
 }
 
 locals {
-  name   = "existing-group-lts"
+  name   = "ex-${basename(path.cwd)}"
   region = "tr-west-1"
 
   tags = {
-    Name    = local.name
-    Example = local.name
+    Name        = local.name
+    Example     = local.name
+    GithubRepo = "terraform-huawei-lts"
+    GithubOrg  = "artifactsystems"
   }
 }
 

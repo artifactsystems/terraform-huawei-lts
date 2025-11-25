@@ -26,7 +26,7 @@ This module supports the following LTS features:
 
 ```hcl
 module "lts" {
-  source = "../.."
+  source = "github.com/artifactsystems/terraform-huawei-lts?ref=v1.0.0"
 
   group_name  = "my-application-logs"
   ttl_in_days = 30
@@ -53,7 +53,7 @@ module "lts" {
 
 ```hcl
 module "lts" {
-  source = "../.."
+  source = "github.com/artifactsystems/terraform-huawei-lts?ref=v1.0.0"
 
   create_log_group = false
   log_group_id     = "existing-group-id"
