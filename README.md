@@ -123,3 +123,9 @@ module "lts" {
 | log_streams | Map of log streams created, keyed by stream name |
 | log_stream_ids | Map of log stream IDs, keyed by stream name |
 | log_stream_names | List of log stream names |
+
+## Contributing
+
+Report issues/questions/feature requests in the [issues](https://github.com/artifactsystems/terraform-huawei-lts/issues/new) section.
+
+Full contributing [guidelines are covered here](.github/CONTRIBUTING.md).
