@@ -12,4 +12,3 @@ output "log_streams" {
   description = "Map of log streams"
   value       = module.lts.log_streams
 }
-

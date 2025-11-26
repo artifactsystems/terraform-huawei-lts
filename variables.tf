@@ -104,4 +104,3 @@ variable "log_streams" {
   }))
   default = []
 }
-

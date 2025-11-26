@@ -46,4 +46,3 @@ resource "huaweicloud_lts_stream" "this" {
     { "Name" = each.value.name },
   )
 }
-

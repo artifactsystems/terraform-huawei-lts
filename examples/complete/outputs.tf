@@ -27,4 +27,3 @@ output "log_stream_names" {
   description = "List of log stream names"
   value       = module.lts.log_stream_names
 }
-

@@ -50,4 +50,3 @@ output "log_stream_names" {
   description = "List of log stream names"
   value       = [for stream in huaweicloud_lts_stream.this : stream.stream_name]
 }
-

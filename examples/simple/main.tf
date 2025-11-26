@@ -7,8 +7,8 @@ locals {
   region = "tr-west-1"
 
   tags = {
-    Name        = local.name
-    Example     = local.name
+    Name       = local.name
+    Example    = local.name
     GithubRepo = "terraform-huawei-lts"
     GithubOrg  = "artifactsystems"
   }
@@ -32,4 +32,3 @@ module "lts" {
 
   tags = local.tags
 }
-
